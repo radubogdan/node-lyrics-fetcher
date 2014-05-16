@@ -1,0 +1,36 @@
+{
+  "name": "lyrics-fetcher",
+  "version": "0.0.0",
+  "description": "Get any lyrics for a song",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cheerio": "~0.16.0",
+    "request": "~2.34.0",
+    "http": "~0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/1.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/radubogdan/node-lyrics-fetcher.git"
+  },
+  "keywords": [
+    "lyrics",
+    "fetcher"
+  ],
+  "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radubogdan/node-lyrics-fetcher/issues"
+  },
+  "homepage": "https://github.com/radubogdan/node-lyrics-fetcher",
+  "dependencies": {
+    "request": "*",
+    "cheerio": "*"
+  }
+}
