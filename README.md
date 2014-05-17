@@ -19,7 +19,8 @@ $ lyr 'Sting' 'Shape of my heart'
 ```
 
 #### Javascript file
-``js
+
+```js
 var lyr = require('lyrics-fetcher');
 
 lyr.fetch('Sting', 'Shape of my heart', function (err, lyrics) {
