@@ -4,7 +4,7 @@ var lyrics = require('../lib/index.js');
 
 args = process.argv.slice(2);
 
-if (args.length !== 2) {
+if (args.length !== 2 || args[0].length == 0 || args[1].length == 0) {
     console.log("Example: lyr 'Sting' 'Shape of my heart'");
 } else {
     lyrics.fetch(args[0], args[1], function(err, lyrics) {
