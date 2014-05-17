@@ -3,15 +3,16 @@
   "version": "0.0.0",
   "description": "Get any lyrics for a song",
   "main": "lib/index.js",
+  "bin": {
+    "lyr": "bin/lyr"
+  },
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "cheerio": "~0.16.0",
-    "request": "~2.34.0",
-    "http": "~0.0.0"
+    "cheerio": "*",
+    "request": "*"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node test/1.js"
   },
@@ -28,9 +29,5 @@
   "bugs": {
     "url": "https://github.com/radubogdan/node-lyrics-fetcher/issues"
   },
-  "homepage": "https://github.com/radubogdan/node-lyrics-fetcher",
-  "dependencies": {
-    "request": "*",
-    "cheerio": "*"
-  }
+  "homepage": "https://github.com/radubogdan/node-lyrics-fetcher"
 }
