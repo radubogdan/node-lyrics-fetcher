@@ -1,7 +1,7 @@
 Lyrics-fetcher
 ===================
 
-Lyrics-fetcher is a simple interface that provides lyrics from lyricsmania.com
+Lyrics-fetcher is a simple interface that provides lyrics from http://makeitpersonal.co/ 
 directly into your js file or terminal.
 
 ### Instalation
