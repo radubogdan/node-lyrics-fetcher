@@ -1,6 +1,6 @@
 {
   "name": "lyrics-fetcher",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get any lyrics for a song",
   "main": "lib/index.js",
   "bin": {
@@ -10,7 +10,6 @@
     "test": "test"
   },
   "dependencies": {
-    "cheerio": "*",
     "request": "*"
   },
   "scripts": {
