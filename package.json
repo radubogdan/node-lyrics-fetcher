@@ -1,6 +1,6 @@
 {
   "name": "lyrics-fetcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get any lyrics for a song",
   "main": "lib/index.js",
   "bin": {
